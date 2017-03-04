@@ -1,9 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+import { Router, Route, browserHistory } from 'react-router';
+
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
+
+import Navigation from './components/nav';
+import TeamView from './components/team-view';
+import OthersView from './components/others-view';
+
 
 ReactDOM.render(
-  <App />,
+  (
+    <Router history={browserHistory}>
+      <Route path="/" component={Navigation}>
+        <Route path="team-view.js" component={TeamView} />
+        <Route path="others-view.js" component={OthersView} />
+      </Route>
+    </Router>
+  ),
   document.getElementById('root')
 );

@@ -1,0 +1,11 @@
+[{"id":0,"name":"Brendon Barskbone","class":"Strzelec", "rasa":"człowiek",
+  "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
+  "skille":["jeździectwo", "strzelanie", "wiedza o bohaterach "]},
+  {"id":1,"name":"Rid","class":"Wojownik", "rasa":"pół-elf",
+  "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
+  "skille":["walka mieczem", "wiedza o rolnictwie"]},
+
+  {"id":2,"name":"Oriana","class":"Łotrzyk", "rasa":"człowiek",
+  "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
+  "skille":["strzelanie", "włamywanie"]}
+]
