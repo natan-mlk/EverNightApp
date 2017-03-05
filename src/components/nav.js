@@ -26,7 +26,7 @@ const Navigation = (props) => (
           </LinkContainer>
 
           <LinkContainer to="/others-view.js">
-            <NavItem>Baza</NavItem>
+            <NavItem>Skarby</NavItem>
           </LinkContainer>
 
         </Nav>

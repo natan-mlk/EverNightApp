@@ -1,7 +1,7 @@
 import React from 'react';
 import {Grid, Table} from 'react-bootstrap'
 import Heroes from '../data/team.json'
-
+import Others from './others'
 
 const TeamView = () => (
 
@@ -19,7 +19,7 @@ const TeamView = () => (
       <tbody>
       {Heroes.map(
         arg => (
-          <tr>
+          <tr key={arg.id}>
             <td>{arg.name}</td>
             <td>{arg.class}</td>
             <td>{arg.skille.map(
@@ -30,6 +30,9 @@ const TeamView = () => (
       )}
       </tbody>
     </Table>
+
+    <Others />
+
   </Grid>
 );
 

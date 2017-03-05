@@ -1,0 +1,16 @@
+[{"id":0,"name":"Jan Fasola","class":"Strzelec", "rasa":"człowiek",
+  "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
+  "skille":["jeździectwo", "strzelanie", "wiedza o bohaterach "]},
+
+  {"id":1,"name":"Zofia Fasola","class":"Wojownik", "rasa":"elf",
+  "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
+  "skille":["walka mieczem", "wiedza o rolnictwie"]},
+
+  {"id":2,"name":"Zygmunt Brokuła","class":"Łotrzyk", "rasa":"człowiek",
+  "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
+  "skille":["strzelanie", "włamywanie"]},
+
+  {"id":1,"name":"Fenelele","class":"Wojownik", "rasa":"elf",
+    "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
+    "skille":["walka mieczem", "wiedza o rolnictwie"]}
+]
