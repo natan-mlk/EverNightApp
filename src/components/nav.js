@@ -22,7 +22,7 @@ const Navigation = (props) => (
         <Nav>
 
           <LinkContainer to="/team-view.js">
-            <NavItem>Drużyna</NavItem>
+            <NavItem>Mieszkańcy bazy</NavItem>
           </LinkContainer>
 
           <LinkContainer to="/treasure.js">

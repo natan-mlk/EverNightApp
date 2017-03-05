@@ -16,12 +16,6 @@ const ButtonControls = props => (
   </div>
 )
 
-ButtonControls.propTypes = {
-  buttons: React.PropTypes.arrayOf(React.PropTypes.shape({
-    handleClick: React.PropTypes.func.isRequired,
-    label: React.PropTypes.string.isRequired
-  }))
-}
 
 export default ButtonControls
 
