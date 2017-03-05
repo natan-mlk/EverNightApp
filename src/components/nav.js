@@ -25,7 +25,7 @@ const Navigation = (props) => (
             <NavItem>Drużyna</NavItem>
           </LinkContainer>
 
-          <LinkContainer to="/others-view.js">
+          <LinkContainer to="/treasure.js">
             <NavItem>Skarby</NavItem>
           </LinkContainer>
 
