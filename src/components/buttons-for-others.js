@@ -3,14 +3,15 @@ import ButtonControls from './button-controls'
 
 const ButtonsForOthers = props => (
   <div>
-    <ButtonControls buttons = {[
+    <ButtonControls
+      buttons = {[
       {label: 'Pokaż elfy',
       handleClick: props.elfy},
 
       {label: 'Pokaż ludzi',
       handleClick: props.ludzie},
 
-      {lablel: 'Wszyscy',
+      {label: 'Wszyscy',
       handleClick: props.wszyscy}
     ]} />
 

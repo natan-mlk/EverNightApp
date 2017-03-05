@@ -1,6 +1,7 @@
 import React from 'react'
 import ButtonControls from './button-controls'
 //import Others from './others'
+import {Grid, Table} from 'react-bootstrap'
 import OtherPeople from '../data/others.json'
 
 class FilterButtons extends React.Component {
@@ -9,11 +10,21 @@ class FilterButtons extends React.Component {
 
     this.handleElfClick = () => this.setState(
 
-    OtherPeople.map(
-      (arg, index) => (
-        <tr key={index}><td>{arg.name}</td><td>{arg.rasa}</td></tr>
-      )
-    )
+      <Table striped>
+        <thead>
+        <tr>
+          <th>Imię</th>
+          <th>Rasa</th>
+        </tr>
+        </thead>
+        <tbody>
+        {OtherPeople.map(
+          (arg, index) => (
+            <tr key={index}><td>{arg.name}</td><td>{arg.rasa}</td></tr>
+          )
+        )}
+        </tbody>
+      </Table>
     )
   }
 
@@ -23,7 +34,15 @@ class FilterButtons extends React.Component {
         <h3>klikaj w przyciski</h3>
 
         <ButtonControls
-          increment={this.handleElfClick}
+          elfy={this.handleElfClick}
+        />
+
+        <ButtonControls
+          ludzie={this.handleElfClick}
+        />
+
+        <ButtonControls
+          wszyscy={this.handleElfClick}
         />
 
       </div>
