@@ -3,15 +3,15 @@ import Others from '../data/others.json'
 
 
 //Action creator
-export const change = (value) => ({
+export const change = (kkk) => ({
   type: 'counter/CHANGE',
-  value : 20
+  kkk : 40
 })
 
 const InitialState = {
   Heroes : Heroes,
   Others : Others,
-  counterValue: 0
+  counterValue: 10
 }
 
 
@@ -20,7 +20,7 @@ export default (state = InitialState, action = {}) => {
     case 'counter/CHANGE':
       return {
         ...state,
-        counterValue: state.counterValue + action.value
+        counterValue: state.counterValue + action.kkk
       }
     default:
       return state
