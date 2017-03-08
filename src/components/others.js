@@ -1,8 +1,8 @@
 import React from 'react';
 import {Grid, Table} from 'react-bootstrap'
-import OtherPeople from '../data/others.json'
+import {connect} from 'react-redux'
 
-const Others = () => (
+const Others = ({otherPeople}) => (
   <Grid>
     <h3>Ludzie w bazie</h3>
 
@@ -14,7 +14,7 @@ const Others = () => (
       </tr>
       </thead>
       <tbody>
-      {OtherPeople.map(
+      {otherPeople.map(
         (arg, index) => (
           <tr key={index}><td>{arg.name}</td><td>{arg.rasa}</td></tr>
         )
@@ -25,4 +25,8 @@ const Others = () => (
   </Grid>
 );
 
-export default Others;
+export default connect(
+  state => ({
+    otherPeople: state.myTeam.Others,
+  })
+)(Others)
