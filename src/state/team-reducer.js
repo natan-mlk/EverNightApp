@@ -3,9 +3,9 @@ import Others from '../data/others.json'
 
 
 //Action creator
-export const change = (val) => ({
+export const change = (value) => ({
   type: 'counter/CHANGE',
-  val : 20
+  value : 20
 })
 
 const InitialState = {
@@ -20,7 +20,7 @@ export default (state = InitialState, action = {}) => {
     case 'counter/CHANGE':
       return {
         ...state,
-        counterValue: state.counterValue + action.val
+        counterValue: state.counterValue + action.value
       }
     default:
       return state
