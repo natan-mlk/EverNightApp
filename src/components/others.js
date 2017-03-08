@@ -1,7 +1,6 @@
 import React from 'react';
 import {Grid, Table} from 'react-bootstrap'
 import OtherPeople from '../data/others.json'
-import FilterButtons from './filter-buttons'
 
 const Others = () => (
   <Grid>
@@ -22,8 +21,6 @@ const Others = () => (
       )}
       </tbody>
     </Table>
-
-    <FilterButtons />
 
   </Grid>
 );

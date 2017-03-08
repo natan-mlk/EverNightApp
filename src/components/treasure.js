@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Treasure = (props) => (
+const Treasure = () => (
 
   <p> SKARBY!!!</p>
 
