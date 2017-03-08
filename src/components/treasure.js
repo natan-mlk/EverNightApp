@@ -1,10 +1,21 @@
-import React from 'react';
+import React from 'react'
+import {Grid, Button} from 'react-bootstrap'
+import {connect} from 'react-redux'
 
-const Treasure = () => (
+const Treasure = ({value, change}) => {
 
-  <p> SKARBY!!!</p>
+  return (
+  <Grid>
+    <p> SKARBY!!!</p>
 
-
+    <h1>Ile skarbów: {value}</h1>
+    <Button onClick={() => change(1)}>Increment</Button>
+  </Grid>
 );
+}
 
-export default Treasure;
+export default connect(
+  state => ({
+    value: state.counterValueStore.counterValue,
+  })
+)(Treasure)

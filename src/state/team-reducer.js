@@ -4,7 +4,8 @@ import Others from '../data/others.json'
 
 const InitialState = {
   Heroes : Heroes,
-  Others : Others
+  Others : Others,
+  counterValue: 0
 }
 
 

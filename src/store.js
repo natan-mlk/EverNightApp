@@ -3,7 +3,8 @@ import teamReducer from './state/team-reducer'
 
 
 const AllReducers = combineReducers({
- myTeam : teamReducer
+  myTeam: teamReducer,
+  counterValueStore: teamReducer
 })
 
 

@@ -21,7 +21,6 @@ const Others = ({otherPeople}) => (
       )}
       </tbody>
     </Table>
-
   </Grid>
 );
 
