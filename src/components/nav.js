@@ -25,7 +25,7 @@ const Navigation = (props) => (
             <NavItem>Mieszkańcy bazy</NavItem>
           </LinkContainer>
 
-          <LinkContainer to="/treasure.js">
+          <LinkContainer to="/treasury.js">
             <NavItem>Skarby</NavItem>
           </LinkContainer>
 

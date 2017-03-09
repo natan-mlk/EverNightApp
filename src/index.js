@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap-theme.css'
 
 import Navigation from './components/nav'
 import TeamView from './components/team-view'
-import Treasure from './components/treasure'
+import Treasure from './components/treasury/treasury'
 
 
 ReactDOM.render(
@@ -18,7 +18,7 @@ ReactDOM.render(
       <Router history={browserHistory}>
         <Route path="/" component={Navigation}>
           <Route path="team-view.js" component={TeamView}/>
-          <Route path="treasure.js" component={Treasure}/>
+          <Route path="treasury.js" component={Treasure}/>
         </Route>
       </Router>
     </Provider>

@@ -1,10 +1,12 @@
 import {createStore, combineReducers} from 'redux'
 import teamReducer from './state/team-reducer'
+import weaponsReducer from './state/weapon-reducer'
 
 
 const AllReducers = combineReducers({
   myTeam: teamReducer,
-  counterValueStore: teamReducer
+  counterValueStore: teamReducer,
+  weapons: weaponsReducer
 })
 
 

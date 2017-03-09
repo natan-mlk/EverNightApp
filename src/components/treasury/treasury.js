@@ -2,7 +2,8 @@ import React from 'react'
 import {Grid, Button} from 'react-bootstrap'
 import {connect} from 'react-redux'
 
-import {change} from '../state/team-reducer'
+import {change} from '../../state/team-reducer'
+import WeaponList from './weapons'
 
 const Treasure = ({value, mojaAkcja}) => {
 
@@ -12,6 +13,9 @@ const Treasure = ({value, mojaAkcja}) => {
 
     <h1>Ile skarbów: {value}</h1>
     <Button onClick={(val) => mojaAkcja(val)}>Increment</Button>
+
+    <WeaponList/>
+
   </Grid>
 );
 }
