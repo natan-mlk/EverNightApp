@@ -25,7 +25,12 @@ const WeaponList = ({allWeapons}) => (
             <td>{arg.worth}</td>
           </tr>)
       )}
-
+        <tr>
+          <td> </td>
+          <th>Łącznie</th>
+          <td>{allWeapons.reduce(
+            (a, b) => (a + parseInt(b.worth)), 0)}</td>
+        </tr>
       </tbody>
     </Table>
   </Grid>
