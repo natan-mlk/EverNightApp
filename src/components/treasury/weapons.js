@@ -12,9 +12,9 @@ const filters = {
 }
 
 
-const WeaponList = ({allWeapons}) => {
+const WeaponList = (props) => {
 
-  const {groups, groupFilters, setFilter, unsetFilter} = this.props
+  const {groups, allWeapons, groupFilters, setFilter, unsetFilter} = props
 
   return (
     <Grid>
@@ -49,21 +49,8 @@ const WeaponList = ({allWeapons}) => {
 
         <tbody>
         {
-          groups.data ?
-            groups.data.filter(
-              group => groupFilters.activeFilterNames.map(
-                filterName => filters[filterName](group)
-              ).every(
-                item => item === true
-              )
-            ).map(
-              (arg, index) => (
-                <tr key={index}>
-                  <td>{arg.weaponClass}</td>
-                  <td>{arg.weapon}</td>
-                  <td>{arg.worth}</td>
-                </tr>)
-            )}
+
+        }
         <tr>
           <td></td>
           <th>Łącznie</th>
@@ -87,6 +74,6 @@ export default connect(
   dispatch => ({
       setFilter: (filterName) => dispatch(setFilterName(filterName)),
       unsetFilter: (filterName) => dispatch(unsetFilterName(filterName))
-    }
-  )(WeaponList)
-)
+    })
+)(WeaponList)
+
