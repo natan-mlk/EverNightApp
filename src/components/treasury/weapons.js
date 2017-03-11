@@ -48,11 +48,16 @@ const WeaponList = (props) => {
         </thead>
 
         <tbody>
-        {
-
-        }
+        {allWeapons.map(
+          (arg, index) => (
+            <tr key={index}>
+              <td>{arg.weaponClass}</td>
+              <td>{arg.weapon}</td>
+              <td>{arg.worth}</td>
+            </tr>)
+        )}
         <tr>
-          <td></td>
+          <td> </td>
           <th>Łącznie</th>
           <td>{allWeapons.reduce(
             (a, b) => (a + parseInt(b.worth)), 0)}</td>
