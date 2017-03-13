@@ -11,7 +11,7 @@ const Navigation = (props) => (
 
       <Navbar.Header>
         <Navbar.Brand>
-          <Link to="/home">
+          <Link to="/home-view.js">
             Evernight
           </Link>
         </Navbar.Brand>
