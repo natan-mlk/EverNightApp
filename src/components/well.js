@@ -10,17 +10,16 @@ class Example extends React.Component {
   }
 
   render() {
-    const chosenHero = parseInt(props.idHero, 10)
-
+    const chosenHero = parseInt(this.props.myChosenHero, 10)
     return (
       <div>
-        <Button onClick={ ()=> this.setState({ open: !this.state.open })}>
+        <Button onClick={ () => this.setState({open: !this.state.open})}>
           Czytaj więcej
         </Button>
         <Collapse in={this.state.open}>
           <div>
             <Well>
-              {chosenHero.name}
+              {Heroes[chosenHero].description}
             </Well>
           </div>
         </Collapse>
