@@ -11,11 +11,7 @@ const InitialState = {
 
 export default (state = InitialState, action = {}) => {
   switch (action.type) {
-    case 'counter/CHANGE':
-      return {
-        ...state,
-        counterValue: state.counterValue + action.kkk
-      }
+
     default:
       return state
   }

@@ -12,7 +12,7 @@ const Treasure = ({value, mojaAkcja}) => {
     <p> SKARBY</p>
 
     <h1>Ile skarbów: {value}</h1>
-    <Button onClick={(val) => mojaAkcja(val)}>Increment</Button>
+    <Button onClick={() => mojaAkcja()}>Increment</Button>
 
     <WeaponList/>
 

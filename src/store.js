@@ -1,12 +1,16 @@
 import {createStore, combineReducers} from 'redux'
 import teamReducer from './state/team-reducer'
 import weaponsReducer from './state/weapon-reducer'
+import groupFiltersReducer from './state/group-filters'
+import weaponFiltersReducer from './state/items-filter-reducer'
 
 
 const AllReducers = combineReducers({
   myTeam: teamReducer,
   counterValueStore: teamReducer,
-  weapons: weaponsReducer
+  weapons: weaponsReducer,
+  weaponsFilter: weaponFiltersReducer,
+  groupFilters: groupFiltersReducer
 })
 
 

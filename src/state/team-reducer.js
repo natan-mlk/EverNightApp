@@ -2,18 +2,17 @@ import Heroes from '../data/team.json'
 import Others from '../data/others.json'
 
 
-//Action creator
-export const change = (kkk) => ({
-  type: 'counter/CHANGE',
-  kkk : 40
-})
-
 const InitialState = {
   Heroes : Heroes,
   Others : Others,
   counterValue: 10
 }
 
+//Action creator
+export const change = () => ({
+  type: 'counter/CHANGE',
+  kkk : 40
+})
 
 export default (state = InitialState, action = {}) => {
   switch (action.type) {
