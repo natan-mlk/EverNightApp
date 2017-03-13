@@ -6,6 +6,7 @@ import store from './store'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/css/bootstrap-theme.css'
+import './components/css/styles.css'
 
 import Navigation from './components/nav'
 import TeamView from './components/team-view'

@@ -1,14 +1,20 @@
 [{"id":0,"name":"Brendon Barskbone","class":"Strzelec", "rasa":"człowiek",
   "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
   "skille":["jeździectwo", "strzelanie", "wiedza o bohaterach "],
-  "avatar":"https://robohash.org/sitquiaearum.jpg?size=100x100&set=set1"},
+  "avatar":"http://adammilko.com/Evernight/external_img/brendon.jpg"},
 
   {"id":1,"name":"Rid","class":"Wojownik", "rasa":"pół-elf",
   "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
   "skille":["walka mieczem", "wiedza o rolnictwie"],
-    "avatar":"https://robohash.org/sitquiaearum.jpg?size=100x100&set=set1"},
+    "avatar":"http://adammilko.com/Evernight/external_img/rid.jpg"},
 
   {"id":2,"name":"Oriana","class":"Łotrzyk", "rasa":"człowiek",
   "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
-  "skille":["strzelanie", "włamywanie"]}
+    "skille":["walka mieczem", "wiedza o rolnictwie"],
+    "avatar":"http://adammilko.com/Evernight/external_img/oriana.jpg"},
+
+  {"id":3,"name":"Calardor","class":"Mag Run", "rasa":"człowiek",
+    "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
+    "skille":["walka mieczem", "wiedza o rolnictwie"],
+    "avatar":"http://adammilko.com/Evernight/external_img/calardor.jpg"}
 ]
