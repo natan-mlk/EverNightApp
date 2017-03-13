@@ -2,11 +2,18 @@ import React from 'react';
 import {Grid, Table} from 'react-bootstrap'
 import Heroes from '../data/team.json'
 import Others from './others'
+import Hero from './heroes'
 
 const TeamView = () => (
 
   <Grid>
-    <h3>Bohaterowie drużyny "Sokoły"</h3>
+    <Hero idHero="0" />
+    <Hero idHero="1" />
+    <Hero idHero="2" />
+
+    <h3>Bohaterowie drużyny</h3>
+
+
 
     <Table striped>
       <thead>
