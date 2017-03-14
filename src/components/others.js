@@ -4,8 +4,6 @@ import {connect} from 'react-redux'
 
 const Others = ({otherPeople}) => (
   <Grid>
-    <h3>Ludzie w bazie</h3>
-
     <Table striped>
       <thead>
       <tr>

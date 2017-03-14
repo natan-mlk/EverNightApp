@@ -2,7 +2,7 @@ import React from 'react';
 import {Well, Button, Collapse} from 'react-bootstrap'
 import Heroes from '../data/team.json'
 
-class Example extends React.Component {
+class HeroModule extends React.Component {
   constructor(...args) {
     super(...args);
 
@@ -18,8 +18,11 @@ class Example extends React.Component {
         </Button>
         <Collapse in={this.state.open}>
           <div>
-            <Well>
+            <Well className="centered">
+              <p><b>Rola:</b> {Heroes[chosenHero].class}</p>
+              <p><b>Rasa:</b> {Heroes[chosenHero].rasa}</p>
               {Heroes[chosenHero].description}
+              <p><b>Wiodące skille:</b> {Heroes[chosenHero].skille}</p>
             </Well>
           </div>
         </Collapse>
@@ -28,4 +31,4 @@ class Example extends React.Component {
   }
 }
 
-export default Example;
+export default HeroModule;

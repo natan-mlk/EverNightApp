@@ -1,7 +1,7 @@
 import React from 'react';
 import {Image} from 'react-bootstrap'
 import Heroes from '../data/team.json'
-import Example from './well'
+import HeroModule from './well'
 
 const Hero = (props) => {
 
@@ -9,9 +9,9 @@ const Hero = (props) => {
 
   return (
     <div className="centered">
-      <h4>{Heroes[chosenHero].name}</h4>
       <p><Image src={Heroes[chosenHero].avatar} alt={Heroes[chosenHero].name} circle responsive/></p>
-      <Example myChosenHero={chosenHero}/>
+      <h4>{Heroes[chosenHero].name}</h4>
+      <HeroModule myChosenHero={chosenHero}/>
     </div>
   )
 }

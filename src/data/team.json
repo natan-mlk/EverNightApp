@@ -1,20 +1,20 @@
 [{"id":0,"name":"Brendon Barskbone","class":"Strzelec", "rasa":"człowiek",
-  "description":"Szef i założyciel drużyny Sokoły",
+  "description":"Założyciel drużyny Sokoły, nastawiony na sukces, lubiący planować.",
   "skille":["jeździectwo", "strzelanie", "wiedza o bohaterach "],
   "avatar":"http://adammilko.com/Evernight/external_img/brendon.jpg"},
 
-  {"id":1,"name":"Rid","class":"Wojownik", "rasa":"pół-elf",
-  "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
-  "skille":["walka mieczem", "wiedza o rolnictwie"],
+  {"id":1,"name":"Rid. Po prostu","class":"Wojownik", "rasa":"pół-elf",
+  "description":"Młody, (over)entyzjastyczny, nieco naiwny. Jego ignorancja w pewnych dziedzinach, bywa zaletą.",
+  "skille":["walka mieczem dwuręcznym", "wiedza o rolnictwie"],
     "avatar":"http://adammilko.com/Evernight/external_img/rid.jpg"},
 
   {"id":2,"name":"Oriana","class":"Łotrzyk", "rasa":"człowiek",
-  "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
+  "description":"Młoda, zdolna i zwinna, nie lubi seksistwskiego podejścia do swojej osoby. Niestety nie lubi też gotować.",
     "skille":["walka mieczem", "wiedza o rolnictwie"],
     "avatar":"http://adammilko.com/Evernight/external_img/oriana.jpg"},
 
   {"id":3,"name":"Calardor","class":"Mag Run", "rasa":"człowiek",
-    "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
+    "description":"Większość czasu spokojny i zrównoważony, bywa jednak tajemniczy i małomówny. Uparcie ignoruje swoje wizje senne.",
     "skille":["walka mieczem", "wiedza o rolnictwie"],
     "avatar":"http://adammilko.com/Evernight/external_img/calardor.jpg"}
 ]
