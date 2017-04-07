@@ -1,8 +1,6 @@
 import React from 'react'
 import {Navbar, Nav, NavItem} from 'react-bootstrap'
 import {LinkContainer, IndexLinkContainer} from 'react-router-bootstrap'
-import {Link} from 'react-router'
-
 
 const Navigation = (props) => (
 
@@ -11,7 +9,7 @@ const Navigation = (props) => (
 
       <Navbar.Header>
         <Navbar.Brand>
-            Evernight
+          Evernight
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>

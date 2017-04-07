@@ -8,12 +8,11 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/css/bootstrap-theme.css'
 import './components/css/styles.css'
 
-
 import App from './components/app'
 import HomeView from './components/home-view'
 import TeamView from './components/team-view'
 import Treasure from './components/treasury/treasury'
-import Navigation from './components/nav'
+
 
 ReactDOM.render(
   (
