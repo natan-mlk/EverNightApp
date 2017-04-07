@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {Router, Route, browserHistory} from 'react-router'
+import {Router, Route, hashHistory} from 'react-router'
 import { Provider } from 'react-redux'
 import store from './store'
 
@@ -17,7 +17,7 @@ import Treasure from './components/treasury/treasury'
 ReactDOM.render(
   (
     <Provider store={store}>
-      <Router history={browserHistory}>
+      <Router history={hashHistory}>
         <Route path="/" component={Navigation}>
           <Route path="home-view.js" component={HomeView}/>
           <Route path="team-view.js" component={TeamView}/>
