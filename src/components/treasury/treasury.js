@@ -9,8 +9,6 @@ const Treasure = ({value, mojaAkcja}) => {
 
   return (
   <Grid>
-    <p> SKARBY</p>
-
     <h1>Ile skarbów: {value}</h1>
     <Button onClick={() => mojaAkcja()}>Increment</Button>
 

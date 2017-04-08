@@ -7,7 +7,7 @@ const TeamView = () => (
 
   <Grid>
     <h3>Bohaterowie drużyny</h3>
-    <Row className="show-grid">
+    <Row className="container">
       <Col xs={12} sm={3}><Hero idHero="0" /></Col>
       <Col xs={12} sm={3}><Hero idHero="1" /></Col>
       <Col xs={12} sm={3}><Hero idHero="2" /></Col>

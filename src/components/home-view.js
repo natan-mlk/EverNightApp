@@ -25,17 +25,6 @@ const HomeView = () => (
     <Row className="container">
       <Image src={require("../img/homepage-pic.jpg")} responsive />
     </Row>
-
-    <Row className="container">
-      <Image src={require("../img/homepage-pic.jpg")} responsive />
-    </Row>
-
-    <Row className="container">
-      <Image src={require("../img/homepage-pic.jpg")} responsive />
-    </Row>
-
-<div></div>
-
   </Grid>
 );
 
