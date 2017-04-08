@@ -5,11 +5,11 @@ import {LinkContainer, IndexLinkContainer} from 'react-router-bootstrap'
 const Navigation = (props) => (
 
   <div>
-    <Navbar>
+    <Navbar inverse collapseOnSelect className="navbar-static-top navbar-fixed-top">
 
       <Navbar.Header>
         <Navbar.Brand>
-          Evernight
+          <img src={require("../img/EverN-logo.png")} height="50px"/>
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>
