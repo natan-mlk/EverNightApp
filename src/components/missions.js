@@ -1,9 +1,12 @@
 import React from 'react';
-import {Table, Grid} from 'react-bootstrap'
+import {Table, Grid, Row, Image} from 'react-bootstrap'
 import Missionsjson from '../data/missions.json'
 
 const Missions = () => (
   <Grid>
+    <Row className="container">
+      <Image src={require("../img/misje.jpg")} responsive />
+    </Row>
   <Table striped>
     <thead>
     <tr>
