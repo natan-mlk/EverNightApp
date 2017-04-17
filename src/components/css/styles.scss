@@ -1,3 +1,18 @@
+@import url("http://fonts.googleapis.com/css?family=Alegreya&subset=latin,latin-ext");
+@import url("http://fonts.googleapis.com/css?family=Amarante&subset=latin,latin-ext");
+@import url("http://fonts.googleapis.com/css?family=Arima+Madurai&subset=latin,latin-ext");
+
+@import url("http://fonts.googleapis.com/css?family=Berkshire+Swash&subset=latin,latin-ext");
+
+$second-font: 'Berkshire Swash', sans-serif;
+$main-font: 'Arima Madurai', sans-serif;
+//$main-font: 'Amarante', sans-serif;
+//$main-font: 'Alegreya', sans-serif;
+
+* {
+  font-family: $second-font;
+}
+
 .centered {
   text-align: center;
 }
@@ -8,4 +23,15 @@
 
 body {
   padding-top: 50px;
+}
+
+// ----- HOME ------
+
+.container.row {
+  padding: 0;
+}
+
+blockquote {
+  margin-top: 50px;
+  font-family: $main-font;
 }

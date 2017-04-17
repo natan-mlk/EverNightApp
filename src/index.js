@@ -10,9 +10,9 @@ import './components/css/styles.css'
 
 import App from './components/app'
 import HomeView from './components/home-view'
+import Missions from './components/missions'
 import TeamView from './components/team-view'
 import Treasure from './components/treasury/treasury'
-
 
 ReactDOM.render(
   (
@@ -21,6 +21,7 @@ ReactDOM.render(
         <Route path="/" component={App}>
           <IndexRoute component={HomeView}/>
           <Route path="team-view.js" component={TeamView}/>
+          <Route path="missions.js" component={Missions}/>
           <Route path="treasury.js" component={Treasure}/>
         </Route>
       </Router>
