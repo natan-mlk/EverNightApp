@@ -1,16 +1,4 @@
-[{"id":0,"name":"Jan Fasola","class":"Strzelec", "rasa":"człowiek",
+[{"id":0,"name":"Kilku budowniczych wznoszących brakujące ściany i dach","class":"Budowniczy z gildii", "rasa":"człowiek",
   "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
-  "skille":["jeździectwo", "strzelanie", "wiedza o bohaterach "]},
-
-  {"id":1,"name":"Zofia Fasola","class":"Wojownik", "rasa":"elf",
-  "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
-  "skille":["walka mieczem", "wiedza o rolnictwie"]},
-
-  {"id":2,"name":"Zygmunt Brokuła","class":"Łotrzyk", "rasa":"człowiek",
-  "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
-  "skille":["strzelanie", "włamywanie"]},
-
-  {"id":1,"name":"Fenelele","class":"Wojownik", "rasa":"elf",
-    "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
-    "skille":["walka mieczem", "wiedza o rolnictwie"]}
+  "skille":["jeździectwo", "strzelanie", "wiedza o bohaterach "]}
 ]

@@ -3,23 +3,21 @@ import {Grid, Table} from 'react-bootstrap'
 import {connect} from 'react-redux'
 
 const Others = ({otherPeople}) => (
-  <Grid>
     <Table striped>
       <thead>
       <tr>
-        <th>Imię</th>
-        <th>Rasa</th>
+        <th><h4 className="titles">Kto?</h4></th>
+        <th><h4 className="titles">Klasa/zawód/cech</h4></th>
       </tr>
       </thead>
       <tbody>
       {otherPeople.map(
         (arg, index) => (
-          <tr key={index}><td>{arg.name}</td><td>{arg.rasa}</td></tr>
+          <tr key={index}><td>{arg.name}</td><td>{arg.class}</td></tr>
         )
       )}
       </tbody>
     </Table>
-  </Grid>
 );
 
 export default connect(

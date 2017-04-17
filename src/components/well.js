@@ -12,7 +12,7 @@ class HeroModule extends React.Component {
   render() {
     const chosenHero = parseInt(this.props.myChosenHero, 10)
     return (
-      <div>
+      <div className="my-well">
         <Button onClick={ () => this.setState({open: !this.state.open})}>
           Czytaj więcej
         </Button>

@@ -10,8 +10,8 @@ const Missions = () => (
   <Table striped>
     <thead>
     <tr>
-      <th><h3>Wykonane questy</h3></th>
-      <th><h3>Zlecający</h3></th>
+      <th><h3 className="titles">Wykonane questy</h3></th>
+      <th><h3 className="titles">Zlecający</h3></th>
     </tr>
     </thead>
     <tbody>

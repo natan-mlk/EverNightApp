@@ -26,4 +26,26 @@ blockquote {
   color: #c5c5c5;
   border-left: 4px solid grey; }
 
+.accent-back {
+  background-color: #191919;
+  color: #c5c5c5; }
+
+.accent-back h3 {
+  padding-left: 20px; }
+
+div.centered.well {
+  color: #131313; }
+
+.my-well {
+  padding-bottom: 20px; }
+
+.titles {
+  color: #c5c5c5; }
+
+.table-striped > tbody > tr:nth-child(even) {
+  background-color: #cbcbcb; }
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #a2a2a2; }
+
 /*# sourceMappingURL=styles.css.map */
