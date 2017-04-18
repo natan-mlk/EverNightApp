@@ -39,7 +39,7 @@ div.centered.well {
 .my-well {
   padding-bottom: 20px; }
 
-.titles {
+h1, h2, h3, h4 {
   color: #c5c5c5; }
 
 .table-striped > tbody > tr:nth-child(even) {
