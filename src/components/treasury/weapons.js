@@ -7,8 +7,8 @@ import {setFilterName, unsetFilterName} from '../../state/items-filter-reducer'
 
 
 const filters = {
-  weapon_biala: weapon => weapon.weaponClass === 'Broń biała',
-  weapon_zasiegowa: weapon => weapon.weaponClass === 'Broń dystansowa'
+  weapon_biala: weapon => weapon.itemClass === 'Broń biała',
+  weapon_zasiegowa: weapon => weapon.itemClass === 'Broń dystansowa'
 }
 
 
@@ -64,7 +64,7 @@ const WeaponList = (props) => {
         ).map(
           (arg, index) => (
             <tr key={index}>
-              <td>{arg.weaponClass}</td>
+              <td>{arg.itemClass}</td>
               <td>{arg.weapon}</td>
               <td>{arg.worth}</td>
             </tr>

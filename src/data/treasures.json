@@ -1,7 +1,7 @@
-[{"weaponClass":"Broń biała", "weapon":"Miecz krótki","worth":"300"},
-{"weaponClass":"Broń dystansowa", "weapon":"Łuk długi","worth":"500"},
-{"weaponClass":"Broń dystansowa", "weapon":"Łuk krótki","worth":"200"},
-{"weaponClass":"Broń dystansowa", "weapon":"Kusza","worth":"700"},
-{"weaponClass":"Broń biała", "weapon":"Miecz dwuręczny","worth":"700"},
-{"weaponClass":"Broń biała", "weapon":"Miecz dwuręczny","worth":"700"}
+[{"itemClass":"Trofeum", "weapon":"Miecz krótki","worth":"300"},
+{"itemClass":"Broń dystansowa", "weapon":"Łuk długi","worth":"500"},
+{"itemClass":"Trofeum", "weapon":"Łuk krótki","worth":"200"},
+{"itemClass":"Broń dystansowa", "weapon":"Kusza","worth":"700"},
+{"itemClass":"Broń biała", "weapon":"Miecz dwuręczny","worth":"700"},
+{"itemClass":"Broń biała", "weapon":"Miecz dwuręczny","worth":"700"}
 ]
