@@ -1,6 +1,6 @@
 import {createStore, combineReducers} from 'redux'
 import teamReducer from './state/team-reducer'
-import weaponsReducer from './state/weapon-reducer'
+import weaponsReducer from './state/items-reducer'
 import groupFiltersReducer from './state/group-filters'
 import weaponFiltersReducer from './state/items-filter-reducer'
 
