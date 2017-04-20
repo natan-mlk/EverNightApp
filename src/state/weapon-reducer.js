@@ -1,4 +1,4 @@
-import WeaponsListJson from '../data/weapons.json'
+import WeaponsListJson from '../data/treasures.json'
 
 
 //Action creator
