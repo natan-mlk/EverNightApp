@@ -10,7 +10,7 @@ const Player = (props) => {
   return (
     <div className="centered">
       <p></p>
-      <h4>{Players[chosenPlayer].name}</h4>
+      <h4>{Players[chosenPlayer].name}:</h4>
       <p className="player-quote">"{Players[chosenPlayer].description}"</p>
     </div>
   )

@@ -9,11 +9,11 @@ const HomeView = () => (
       <Image src={require("../img/homepage-pic.jpg")} responsive/>
     </Row>
 
-    <Row className="container">
-      <h3>Gracze SKB:</h3>
+    <Row className="container accent-back">
+      <h3>Skavenblight o kampanii</h3>
     </Row>
 
-    <Row className="container">
+    <Row className="container accent-back">
       <Col xs={12} sm={6} md={3}><Player idPlayer="0" /></Col>
       <Col xs={12} sm={6} md={3}><Player idPlayer="1" /></Col>
       <Col xs={12} sm={6} md={3}><Player idPlayer="2" /></Col>
