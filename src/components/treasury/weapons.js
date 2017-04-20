@@ -18,7 +18,7 @@ const WeaponList = (props) => {
 
   console.log('wtf')
   return (
-    <Grid>
+    <div>
       <h3>Broń drużyny</h3>
 
       <FilterControls
@@ -42,7 +42,8 @@ const WeaponList = (props) => {
         <thead>
         <tr>
           <th>Rodzaj</th>
-          <th>Broń</th>
+          <th>Nazwa</th>
+          <th>Opis</th>
           <th>Ile warta</th>
         </tr>
         </thead>
@@ -65,7 +66,8 @@ const WeaponList = (props) => {
           (arg, index) => (
             <tr key={index}>
               <td>{arg.itemClass}</td>
-              <td>{arg.weapon}</td>
+              <td>{arg.item}</td>
+              <td>{arg.descr}</td>
               <td>{arg.worth}</td>
             </tr>
           )
@@ -74,6 +76,7 @@ const WeaponList = (props) => {
         <tr>
           <td> </td>
           <th>Łącznie</th>
+          <td></td>
           <td>{allWeapons.reduce(
             (a, b) => (a + parseInt(b.worth)), 0)}</td>
         </tr>
@@ -82,7 +85,7 @@ const WeaponList = (props) => {
 
 
       </Table>
-    </Grid>
+    </div>
   )
 }
 

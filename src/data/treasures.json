@@ -1,7 +1,10 @@
-[{"itemClass":"Trofeum", "weapon":"Miecz krótki","worth":"300"},
-{"itemClass":"Broń dystansowa", "weapon":"Łuk długi","worth":"500"},
-{"itemClass":"Trofeum", "weapon":"Łuk krótki","worth":"200"},
-{"itemClass":"Broń dystansowa", "weapon":"Kusza","worth":"700"},
-{"itemClass":"Broń biała", "weapon":"Miecz dwuręczny","worth":"700"},
-{"itemClass":"Broń biała", "weapon":"Miecz dwuręczny","worth":"700"}
+[{"itemClass":"Trofeum", "item":"Głowa Zgrzytnika","worth":"0", "descr":"-"},
+{"itemClass":"Trofeum", "item":"Dziub Krakena","worth":"0", "descr":"-"},
+{"itemClass":"Trofeum", "item":"Wątroba Krakena","worth":"0", "descr":"-"},
+{"itemClass":"Trofeum", "item":"Oko Krakena","worth":"0", "descr":"-"},
+{"itemClass":"Różne", "item":"Duża muszla x 2","worth":"0", "descr":"-"},
+{"itemClass":"Magiczne", "item":"Koszula ochrony","worth":"0", "descr":"+2 do obrony"},
+{"itemClass":"Magiczne", "item":"Sztylet Pijaka","worth":"0", "descr":"pokazuje drogę do najbliższej karczmy"},
+{"itemClass":"Broń dystansowa", "item":"Sztylet do rzucania morskiego trolla","worth":"500", "descr":"-"},
+{"itemClass":"Broń biała", "item":"Włócznia morskiego trolla","worth":"700", "descr":"-"}
 ]
