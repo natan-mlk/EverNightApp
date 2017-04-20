@@ -1,24 +1,6 @@
 import React from 'react';
 import {Grid, Row, Image, Col} from 'react-bootstrap'
-import Hero from './heroes'
-
-/*
- <Carousel>
- <Carousel.Item>
- <img width={900} height={400} alt="900x400" src={require("../img/title-pic-01.jpg")}/>
- <Carousel.Caption>
- <h3>First slide label</h3>
- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
- </Carousel.Caption>
- </Carousel.Item>
- <Carousel.Item>
- <img width={900} height={400} alt="900x400" src={require("../img/title-pic-02.jpg")}/>
- <Carousel.Caption>
- <h3>Second slide label</h3>
- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
- </Carousel.Caption>
- </Carousel.Item>
- </Carousel>*/
+import Player from './players'
 
 const HomeView = () => (
 
@@ -32,7 +14,10 @@ const HomeView = () => (
     </Row>
 
     <Row className="container">
-
+      <Col xs={12} sm={6} md={3}><Player idPlayer="0" /></Col>
+      <Col xs={12} sm={6} md={3}><Player idPlayer="1" /></Col>
+      <Col xs={12} sm={6} md={3}><Player idPlayer="2" /></Col>
+      <Col xs={12} sm={6} md={3}><Player idPlayer="3" /></Col>
     </Row>
 
     <Row>

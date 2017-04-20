@@ -42,6 +42,10 @@ blockquote {
   border-left: 4px solid grey;
 }
 
+.player-quote {
+  color: lighten($background-color, 60%);
+}
+
 // ----- TEAM ------
 
 .accent-back {

@@ -26,6 +26,9 @@ blockquote {
   color: #c5c5c5;
   border-left: 4px solid grey; }
 
+.player-quote {
+  color: #c5c5c5; }
+
 .accent-back {
   background-color: #191919;
   color: #c5c5c5; }
